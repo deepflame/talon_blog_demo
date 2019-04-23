@@ -1,7 +1,7 @@
 FROM gitpod/workspace-postgres
 
 # add your tools here
-USER ROOT
+USER root
 RUN wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && \
       dpkg -i erlang-solutions_1.0_all.deb && \
       rm erlang-solutions_1.0_all.deb
